@@ -1,7 +1,6 @@
-const statement = function(firstArg, secondArg){
-console.log(`${firstArg} is ${secondArg}`);
-};
-statement('c', 'cool');
-statement('c', 'undefined');
-statement('undefined', 'undefined');
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
+
+console.log(`${arg1} is ${arg2}`);
+
    
